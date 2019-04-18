@@ -12,4 +12,4 @@ RUN /usr/sbin/a2enmod ssl
 EXPOSE 80
 EXPOSE 443
 
-CMD ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
+CMD /usr/sbin/apache2ctl start && tail -f /var/log/apache2/access.log

@@ -1,7 +1,8 @@
 version: '2'
 services:
-    Apache:
+    apache:
         image: apache
+        container_name: apache
         ports:
             - '8080:80'
             - '8443:443'
