@@ -1,7 +1,7 @@
 Docker Apache Web Server
 ========================
 
-This installs Ubuntu 16.04 running an Apache Web Server.
+This installs Ubuntu 18.04 running an Apache Web Server.
 
 Build with:
 ```php
@@ -17,3 +17,11 @@ Connect to:
 ```php
 http://127.0.0.1:8080
 ```
+
+
+If you're using this for Palo Alto Firewall External Dynamic Lists, be sure to connect to
+```php
+http://w.x.y.z:8080
+(where w.x.y.z is your External/Ethernet IP address)
+```
+and be sure to associate the EDL with a Security Policy Rule for the EDL to populate entries.

@@ -1,4 +1,4 @@
-FROM ubuntu:xenial
+FROM ubuntu:bionic
 
 RUN apt-get update && apt-get -y install apache2 && apt-get clean && rm -r /var/lib/apt/lists/*
 
