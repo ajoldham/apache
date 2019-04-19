@@ -19,7 +19,7 @@ http://127.0.0.1:8080
 ```
 
 
-If you're using this for Palo Alto Firewall External Dynamic Lists, be sure to connect to
+If you're using this with Palo Alto Firewall External Dynamic Lists, connect to
 ```php
 http://w.x.y.z:8080
 (where w.x.y.z is your External/Ethernet IP address)
